@@ -1,11 +1,51 @@
-<!doctype html>
+<!doctype html> <!--Comment -->
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>My test page</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <title>Bariloche</title>
   </head>
   <body>
-    <img src="" alt="My test image" />
+    <h1>San Carlos de Bariloche, Argentina</h1>
+    <h2>"La Petite Suisse" of Argentina</h2>
+    <img src="images/Bariloche_Landscape.jpg" alt="A beautiful landscape in Bariloche" />
+    <p class="time-class">A beautifull landscape next to Llao Llao Hotel I captured in December 2023.</p>
+    <p>Looking for other attractions in Bariloche?</p>
+    <ul>
+      <li>Centro Civico</li>
+      <li>Nahuel Huapi Lake</li>
+      <li>Campanario Mountain</li>
+      <li>Circuito Chico</li>
+    </ul>
+    <a href="https://fr.wikipedia.org/wiki/San_Carlos_de_Bariloche"> And much more !!! </a>
+    <p id="take-me">How do you take <em>me</em> <strong>there</strong>? </p>
+    <ol>
+      <li class="suscribe">Suscribe to my site</li>
+      <li class="time-class">You will be contacted within 48h</li>
+      <li>We chat about your preferences and travel constraints</li>
+      <li> <span>Three</span> different holiday plannings will be emailed</li>
+      <li>A final meeting is set to choose, costume and agree your planning</li>
+      <li class="time-class">You will receive all your booking tickets within the three hours following the payment</li>
+    </ol>
+    <a class="greetings"> Thank you,</a>
+    <a class="greetings"> Pilar </a>
+    <form action="/my-handling-form-page" method="post">
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+      </p>
+      <p>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" />
+      </p>
+      <p>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message">Pilar, can you send me more information?</textarea>
+      </p>
+      <p class="button">
+        <button type="submit">Send your message</button>
+      </p>
+    </form>    
   </body>
 </html>
